@@ -6,6 +6,7 @@ import { TaskService } from './shared';
 import { CreateTaskComponent } from './create/create-task.component';
 import { GetallTaskComponent } from './getall/getall-task.component';
 import { UpdateTasksComponent } from './update/update-task.component';
+import { ConcludedTaskDirective } from './shared/concluded-task.directive';
 
 @NgModule({
   imports: [
@@ -16,7 +17,8 @@ import { UpdateTasksComponent } from './update/update-task.component';
   declarations: [
     GetallTaskComponent,
     CreateTaskComponent,
-    UpdateTasksComponent
+    UpdateTasksComponent,
+    ConcludedTaskDirective
   ],
   providers: [
     TaskService

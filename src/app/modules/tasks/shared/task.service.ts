@@ -46,7 +46,7 @@ export class TaskService {
         objs[index].concluded = !obj.concluded;
       }
     });
-    localStorage['taks'] = JSON.stringify(tasks);
+    localStorage['tasks'] = JSON.stringify(tasks);
 
   }
 }
